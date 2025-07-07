@@ -1,4 +1,5 @@
-FIRST
+first
+
 function factorial(num) {
   let result = 1;
   for (let i = 1; i <= num; i++) {
@@ -11,6 +12,8 @@ function factorial(num) {
 console.log(factorial(6)); // Output: 720
 
 SECOND
+
+
 function findLargestNumber(arr) {
   let largest = arr[0];
   for (let i = 1; i < arr.length; i++) {
@@ -27,6 +30,8 @@ console.log("Array:", randomNumbers);
 console.log("Largest:", findLargestNumber(randomNumbers)); // Output: 100
 
 THIRD
+
+
 function countConsonants(str) {
   const vowels = ['a', 'e', 'i', 'o', 'u'];
   let count = 0;
@@ -47,6 +52,8 @@ function countConsonants(str) {
 console.log(countConsonants("Prex Maxwell")); // Output: 7
 
 FOURTH
+
+
 function multiplicationTable(num) {
   for (let i = 1; i <= 12; i++) {
     console.log(${num} X ${i} = ${num * i});
@@ -63,6 +70,8 @@ multiplicationTable(7);
 // 7 X 12 = 84
 
 FIFTH
+
+
 function reverseWithCallback(str, callback) {
   const reversed = str.split('').reverse().join('');
   callback(reversed);
