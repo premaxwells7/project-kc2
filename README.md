@@ -71,7 +71,6 @@ multiplicationTable(7);
 
 FIFTH
 
-
 function reverseWithCallback(str, callback) {
   const reversed = str.split('').reverse().join('');
   callback(reversed);
