@@ -56,7 +56,7 @@ FOURTH
 
 function multiplicationTable(num) {
   for (let i = 1; i <= 12; i++) {
-    console.log(${num} X ${i} = ${num * i});
+    console.log(`${num} X ${i} = ${num * i}`);
   }
 }
 
